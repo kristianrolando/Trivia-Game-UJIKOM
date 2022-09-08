@@ -47,6 +47,37 @@ namespace Trivia.PackData
                 TextMeshProUGUI[] _b = _button[i].GetComponentsInChildren<TextMeshProUGUI>();
                 TextMeshProUGUI unlock = Array.Find(_b, _b => _b.name == "UnlockText");
                 unlock.text = data.packData[i].unlockCost.ToString();
+
+                /*
+                //set lock button
+                if(!data.packData[i].isUnLocked)
+                {
+                    Button _objButton = _button[i].GetComponentInChildren<Button>();
+                    _objButton.interactable = false;
+                    //Image _objImage = _button[i].GetComponentInChildren<Image>();
+                    //_objImage.gameObject.SetActive(false);
+                    unlock.gameObject.SetActive(true);
+                }
+                else
+                {
+                    Button _objButton = _button[i].GetComponentInChildren<Button>();
+                    _objButton.interactable = true;
+                    unlock.gameObject.SetActive(false);
+                }
+
+
+                // set completed image
+                if(data.packData[i].isCompleted)
+                {
+                    Image _objImage = _button[i].GetComponentInChildren<Image>();
+                    _objImage.gameObject.SetActive(true);
+                }
+                else
+                {
+                    Image _objImage = _button[i].GetComponentInChildren<Image>();
+                    _objImage.gameObject.SetActive(false);
+                }
+                */
             }
         }
     }
