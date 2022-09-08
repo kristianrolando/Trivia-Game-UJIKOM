@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8d410cdd74d754448380c7a9f5c552f, type: 3}
+  m_Name: Pack-A
+  m_EditorClassIdentifier: 
+  level:
+  - levelID: 1-A
+    hintImage: {fileID: 21300000, guid: 842c694bb2f7d2b40b7ee5d4f30583d2, type: 3}
+    question: Warna laut?
+    Choice:
+    - merah
+    - kuning
+    - hijau
+    - biru
+    answer: biru
+    isFinished: 0
+  - levelID: 2-A
+    hintImage: {fileID: 21300000, guid: fc6538443eca6fb4189b070da567bcaf, type: 3}
+    question: warna mawar?
+    Choice:
+    - merah
+    - kuning
+    - hijau
+    - biru
+    answer: merah
+    isFinished: 0
+  - levelID: 3-A
+    hintImage: {fileID: 21300000, guid: e74b967d3ee508448aac2e07e88a826c, type: 3}
+    question: warna matahari
+    Choice:
+    - merah
+    - kuning
+    - hijau
+    - biru
+    answer: kuning
+    isFinished: 0
+  unlockCost: 100
+  isUnLocked: 1
+  isCompleted: 0
